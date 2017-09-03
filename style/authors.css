@@ -1,0 +1,80 @@
+/*Add/edit author styling */
+.main   {
+    background-color: dimgray;
+    text-align: center;
+}
+#list {
+    list-style-type: none;
+}
+
+
+a:link {
+    color:white;
+    font-family: "Berlin Sans FB";
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    color: cornflowerblue;
+}
+
+/*Navbar styling*/
+
+#navbarUl {
+    position:absolute;
+    top:0%;
+    right:0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width:100%;
+    height:5%;
+}
+
+.navbarLi {
+    float: left;
+    position:relative;
+    left:45%;
+}
+
+.navbarLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbarLi a:hover {
+    background-color: #111;
+    height:100%;
+}
+
+.header {
+    color: white;
+    position:fixed;
+    left:44%;
+    top:5%;
+
+}
+.header2{
+    position:absolute;
+    left:43%;
+    top:20%;
+    visability: hidden;
+    overflow: hidden;
+}
+.submitButton{
+    position:relative;
+    margin:0;
+    display:block;
+    padding:2px;
+    float:left;
+    text-align:center;
+    color:white;
+
+}
+
